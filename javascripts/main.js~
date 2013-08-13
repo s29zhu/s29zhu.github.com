@@ -51,7 +51,3 @@ fixScale = function(doc) {
     doc[addEvent](type, fix, true);
   }
 };
-function display_email_address(){
-	var address='shashazhu1989@gmail.com';
-	document.getElementById('email_address').innerHTML='<a target="_blank" href="mailto:'+ address+'">'+ address+'</a>';
-}
