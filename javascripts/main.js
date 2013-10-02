@@ -52,6 +52,6 @@ fixScale = function(doc) {
   }
 };
 function display_email_address(){
-	var address='shashazhu1989@gmail.com';
+	var address='work.shashazhu@gmail.com';
 	document.getElementById('email_address').innerHTML='<a target="_blank" href="mailto:'+ address+'">'+ address+'</a>';
 }
